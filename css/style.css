@@ -1,0 +1,54 @@
+ .navOne{
+background-color: rgb(12, 12, 32);
+} 
+
+.navOne li{
+    float: left;
+    list-style: none;
+
+}
+
+.navOne ul{
+    overflow: auto;
+}
+ 
+.navOne input{
+    margin-left: 30px;
+    margin-top: 14px;
+    width: 500px;
+    height: 30px ;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+.product{
+    /* border: 1px solid black; */
+    width: 20%;
+    float: left;
+    overflow: auto;
+    /* padding: 30px; */
+    margin: 50px;
+}
+
+.price{
+    margin-left: 100px;
+    color: red;
+}
+
+button{
+    width: 180px;
+    margin-left: 40px;
+    color: rgb(22, 60, 228);
+    background-color: rgb(176, 212, 241);
+    border-style: none;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: red;
+}
